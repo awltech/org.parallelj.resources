@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+   <feature url="features/org.parallelj.developer.feature_0.7.0.201109021435.jar" id="org.parallelj.developer.feature" version="0.7.0.201109021435">
+      <category name="//J Development environment installation"/>
+   </feature>
+   <category-def name="//J Development environment installation" label="//J Development environment installation">
+      <description>
+         This feature allows to installs all the frameworks needed for developing ParallelJ. It brings the SDKs of the tools, so as to ease the debugging process.
+      </description>
+   </category-def>
+</site>
