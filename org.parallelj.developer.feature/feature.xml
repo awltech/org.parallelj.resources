@@ -538,6 +538,7 @@ That&apos;s all there is to it!
 
    <url>
       <discovery label="Resource Selector Site" url="http://xa-labs.github.com/ResourceSelector/site/"/>
+      <discovery label="Epsilon Site" url="http://download.eclipse.org/modeling/gmt/epsilon/marketplace/"/>
    </url>
 
    <requires>

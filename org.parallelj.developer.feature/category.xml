@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <site>
-   <feature url="features/org.parallelj.developer.feature_0.7.0.201109021435.jar" id="org.parallelj.developer.feature" version="0.7.0.201109021435">
+   <feature url="features/org.parallelj.developer.feature_0.7.0.qualifier.jar" id="org.parallelj.developer.feature" version="0.7.0.qualifier">
       <category name="//J Development environment installation"/>
    </feature>
    <category-def name="//J Development environment installation" label="//J Development environment installation">
