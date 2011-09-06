@@ -539,6 +539,7 @@ That&apos;s all there is to it!
    <url>
       <discovery label="Resource Selector Site" url="http://xa-labs.github.com/ResourceSelector/site/"/>
       <discovery label="Epsilon Site" url="http://download.eclipse.org/modeling/gmt/epsilon/marketplace/"/>
+      <discovery label="EMFT Site" url="http://download.eclipse.org/modeling/emft/updates/releases/"/>
    </url>
 
    <requires>
@@ -554,9 +555,8 @@ That&apos;s all there is to it!
       <import feature="org.eclipse.m2e.feature" version="1.0.0" match="greaterOrEqual"/>
       <import feature="org.eclipse.xtend" version="1.1.0" match="compatible"/>
       <import feature="org.eclipse.draw2d.sdk" version="3.7.0" match="compatible"/>
-      <import feature="org.eclipse.emf.eef.edt" version="1.0.0" match="compatible"/>
-      <import feature="org.eclipse.emf.eef.indigo" version="1.0.0" match="compatible"/>
-      <import feature="org.eclipse.emf.eef.runtime" version="1.0.0" match="compatible"/>
+      <import feature="org.eclipse.emf.eef.edt" version="0.8.0" match="equivalent"/>
+      <import feature="org.eclipse.emf.eef.runtime" version="0.8.0" match="equivalent"/>
       <import feature="org.eclipselabs.resourceselector.core" version="0.4.0" match="compatible"/>
       <import feature="org.eclipselabs.resourceselector.core.source" version="0.4.0" match="compatible"/>
       <import feature="org.eclipselabs.resourceselector.processor.java" version="0.3.0" match="compatible"/>
