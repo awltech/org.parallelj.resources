@@ -1,0 +1,11 @@
+-source
+1.6
+-target
+1.6
+-classpath
+D:\Documents\a183276\.m2\repository\junit\junit\4.8.1\junit-4.8.1.jar;D:\Documents\a183276\.m2\repository\log4j\log4j\1.2.14\log4j-1.2.14.jar;D:\Documents\a183276\.m2\repository\org\aspectj\aspectjrt\1.6.8\aspectjrt-1.6.8.jar;D:\Documents\a183276\.m2\repository\org\parallelj\parallelj-core\0.4.0\parallelj-core-0.4.0.jar;D:\Documents\a183276\.m2\repository\org\parallelj\parallelj-tools\0.4.0\parallelj-tools-0.4.0.jar;D:\parallelj\jug\eclipse\workspace\jug.demo\target\test-classes;D:\parallelj\jug\eclipse\workspace\jug.demo\target\classes
+-aspectpath
+D:\parallelj\jug\eclipse\workspace\jug.demo\target\classes;D:\Documents\a183276\.m2\repository\org\parallelj\parallelj-core\0.4.0\parallelj-core-0.4.0.jar
+-d
+D:\parallelj\jug\eclipse\workspace\jug.demo\target\test-classes
+D:\parallelj\jug\eclipse\workspace\jug.demo\src\test\java\org\parallelj\example\foo\ForEachProgramTest.java
