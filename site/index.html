@@ -11,7 +11,7 @@
 <meta name='author' content='ParallelJ Development Team' />
 <link rel="shortcut icon" href="./images/favicon.ico" />
 <meta name="Keywords" lang="en"
-	content="parallelj, java framework, parallel computing, open-source, opensource, open source" />
+	content="parallelj, java framework, parallel computing, open-source, opensource, open source, batch, framework, mda, model driven" />
 
 <title>//J - ParallelJ - Parallel Computing at its best...</title>
 
@@ -56,7 +56,7 @@
 	<div class="nav">
 		<a href="#presentation">Presentation</a> ~ <a href="confluence"
 			title="Archives">Documentation</a> ~ <a href="#downloads">Downloads</a>
-		~ <a href="#contribute">Contribute</a> ~ <a href="#contact">Contact</a>
+		~ <a href="#community">Community</a> ~ <a href="#contact">Contact</a>
 	</div>
 
 	<h1>Welcome</h1>
@@ -72,13 +72,17 @@
 
 	<h1>Releases</h1>
 	<ul>
-		<li>01/20/2012: <a
+		<li>Feb 06, 2012: <a
+			href="https://github.com/XA-Labs/org.parallelj/tree/0.7.0"
+			target="_blank">org.parallelj 0.7.0</a> has been released.
+		</li>
+		<li>Jan 20, 2012: <a
 			href="https://github.com/XA-Labs/org.parallelj.studio/tree/0.8.0"
 			target="_blank">org.parallelj.studio 0.8.0</a> and <a
 			href="https://github.com/XA-Labs/org.parallelj/tree/0.6.0"
 			target="_blank">org.parallelj 0.6.0</a> have been released.
 		</li>
-		<li>09/12/2011: <a
+		<li>Sep 12, 2011: <a
 			href="https://github.com/XA-Labs/org.parallelj.studio/tree/0.7.0"
 			target="_blank">org.parallelj.studio 0.7.0</a> and <a
 			href="https://github.com/XA-Labs/org.parallelj/tree/0.5.0"
@@ -89,26 +93,29 @@
 	<h1 id="presentation">Presentation</h1>
 	<h2>org.parallelj</h2>
 	<ul>
-		<li>Consists in a set of <a href="http://eclipse.org/"
-			target="_blank">Eclipse</a> plug-ins
+		<li>Manages the flow execution,</li>
+		<li>Uses a new development approach based on Java annotations and
+			<abbr title="Aspect Oriented Programming">AOP</abbr>,
 		</li>
-		<li><abbr title="Model Driven Architecture">MDA</abbr> approach:
-			model a //J Program, then generate the source code from it</li>
-		<li>This part allows the flow modeling</li>
+		<li>Consists in a set of Java runtimes,</li>
+		<li>Provides various features such as remote execution using <abbr
+			title="Representational State Transfer">REST</abbr>, <abbr
+			title="Java Management Extensions">JMX</abbr>, <abbr
+			title="Secure Shell">SSH</abbr>, Telnet...
+		</li>
+	</ul>
+	<h2>org.parallelj.studio</h2>
+	<ul>
+		<li>Allows to design the flow graphically,</li>
+		<li>Is based on <abbr title="Model Driven Architecture">MDA</abbr>
+			approach: model a //J Program, then generate the source code !
+		</li>
+		<li>Consists in a set of <a href="http://eclipse.org/"
+			target="_blank">Eclipse</a> plug-ins,
+		</li>
 		<li>Relies on strong technologies: <abbr
 			title="Eclipse Modeling Framework">EMF</abbr>, <abbr
 			title="Graphical Modeling Framework">GMF</abbr>, MoDisco, Epsilon...
-		</li>
-	</ul>
-	<h2>org.parallelj</h2>
-	<ul>
-		<li>Consists in a set of Java runtimes</li>
-		<li>New development approach based on Java annotations and <abbr
-			title="Aspect Oriented Programming">AOP</abbr></li>
-		<li>This part allows the flow execution</li>
-		<li>Allows remote execution using <abbr
-			title="Representational State Transfer">REST</abbr>, <abbr
-			title="Java Management Extensions">JMX</abbr>, Telnet...
 		</li>
 	</ul>
 
@@ -118,6 +125,9 @@
 		<li>Maven Central: <a
 			href="http://repo1.maven.org/maven2/org/parallelj/parallelj/"
 			target="_blank">http://repo1.maven.org/maven2/org/parallelj/parallelj/</a></li>
+		<li><a href="#community">PullRequest.org*</a>: <a
+			href="http://nexus.pullrequest.org/content/groups/parallelj/"
+			target="_blank">http://nexus.pullrequest.org/content/groups/parallelj/</a></li>
 	</ul>
 	Our studio components are delivered at:
 	<ul>
@@ -125,29 +135,45 @@
 			href="http://www.parallelj.org/repository/eclipse/37/">http://www.parallelj.org/repository/eclipse/37/</a></li>
 	</ul>
 
-	<h1 id="contribute">Contribute</h1>
-	Found a bug ? Have a good idea for improving ParallelJ ? Head over to
-	<a href="https://github.com/XA-Labs/org.parallelj" target="_blank">org.parallelj</a>
-	and
-	<a href="https://github.com/XA-Labs/org.parallelj.studio"
-		target="_blank">org.parallelj.studio</a> GitHub pages, and create a
-	new ticket, or fork and make a pull-request ! If you just want to
-	discuss with fellow developers, then refer to the
-	<a href="#contact">contact</a> part of this page.
-	<br /> Oh! And you can find some useful resources on
-	<a href="https://github.com/XA-Labs/org.parallelj.resources"
-		target="_blank">this GitHub repository</a>.
+	<h1 id="community">Community</h1>
+	<ul>
+		<li>Thanks to <a href="http://pullrequest.org" target="_blank">http://pullrequest.org</a>:
+			a french community of open-source developers who hosts our
+			development repository !
+		</li>
+		<li>Found a bug ? Have a good idea for improving ParallelJ ? Head
+			over to <a href="https://github.com/XA-Labs/org.parallelj"
+			target="_blank">org.parallelj</a> and <a
+			href="https://github.com/XA-Labs/org.parallelj.studio"
+			target="_blank">org.parallelj.studio</a> github pages, and create a
+			new ticket, or fork and make a pull-request !
+		</li>
+		<li>If you just want to discuss with fellow developers, then
+			refer to the <a href="#contact">contact</a> part of this page.
+		</li>
+		<li>Oh! And you can find some useful resources on <a
+			href="https://github.com/XA-Labs/org.parallelj.resources"
+			target="_blank">this github repository</a> !
+		</li>
+		<li>And you can also follow the parallelj builds on <a
+			href="http://jenkins.pullrequest.org/" target="_blank">http://jenkins.pullrequest.org/</a>
+			!
+		</li>
+	</ul>
 
 	<h1 id="contact">Contact</h1>
 	If you want to discuss with ParallelJ developers, you can:
 	<ul>
-		<li>Join us on GitHub and create a ticket on <a
+		<li>Join us on github and create a ticket on <a
 			href="https://github.com/XA-Labs/org.parallelj" target="_blank">org.parallelj</a>
 			or <a href="https://github.com/XA-Labs/org.parallelj.studio"
-			target="_blank">org.parallelj.studio</a></li>
+			target="_blank">org.parallelj.studio</a>.
+		</li>
 		<li>Use our mailing-list on Google groups: <a
-			href="http://groups.google.com/group/parallelj-dev" target="_blank">parallelJ-dev[at]googlegroups.com</a></li>
-		<li>Join us on IRC: <a href="irc://irc.freenode.net/#parallelj">irc.freenode.net/#parallelj</a></li>
+			href="http://groups.google.com/group/parallelj-dev" target="_blank">parallelJ-dev[at]googlegroups.com</a>.
+		</li>
+		<li>Join us on IRC: <a href="irc://irc.freenode.net/#parallelj">irc.freenode.net/#parallelj</a>.
+		</li>
 	</ul>
 
 	<div class="footer">
