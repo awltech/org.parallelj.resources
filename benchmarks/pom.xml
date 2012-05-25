@@ -7,7 +7,7 @@
 	<groupId>org.parallelj</groupId>
 	<artifactId>benchmarks</artifactId>
 	<version>1.0.0-SNAPSHOT</version>
-	<packaging>war</packaging>
+	<packaging>jar</packaging>
 
 	<properties>
 		<parallelj-version>1.0.0</parallelj-version>
@@ -148,6 +148,11 @@
 			<groupId>org.parallelj</groupId>
 			<artifactId>parallelj-launching</artifactId>
 			<version>${parallelj-version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.aspectj</groupId>
+			<artifactId>aspectjweaver</artifactId>
+			<version>1.6.12</version>
 		</dependency>
 	</dependencies>
 </project>
