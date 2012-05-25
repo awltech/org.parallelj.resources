@@ -1,8 +1,6 @@
-$(document).ready(function(){
-	
-	$("body").corner("20px");
-	
-});
+/* Author: Antoine Neveux
+
+*/
 
 var scrolling = function(){
 			    var speed     = 2000;
@@ -29,3 +27,5 @@ var scrolling = function(){
 			jQuery(function(){
 				scrolling();
 			});
+
+
