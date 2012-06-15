@@ -1,118 +1,127 @@
 /* ===== Primary Styles ========================================================
    Author: Antoine Neveux
    ========================================================================== */
+@import
+	url(http://fonts.googleapis.com/css?family=Nova+Square|Open+Sans);
 
-   @import url(http://fonts.googleapis.com/css?family=Nova+Square|Open+Sans);
+.container {
+	text-align: justify;
+	padding: 5px 0;
+}
 
-   .container {
-   	text-align: justify;
-   	padding:5px 0;
-   }
+h1 {
+	font-family: 'Nova Square', cursive;
+	font-size: 2.5em;
+}
 
-   h1 {
-   	font-family: 'Nova Square', cursive;
-   	font-size: 2.5em;
-   }
+h2 {
+	font-family: 'Nova Square', cursive;
+	font-size: 1.6em;
+}
 
-   h2 {
-   	font-family: 'Nova Square', cursive;
-   	font-size: 1.6em;
-   }
+a {
+	color: #990000;
+	text-decoration: none;
+}
 
-   a {
-   	color: #990000;
-   	text-decoration: none;
-   }
+a:hover {
+	color: #990000;
+	text-decoration: underline;
+}
 
-   a:hover {
-   	color: #990000;
-   	text-decoration:underline;
-   }
+header {
+	height: 130px;
+	padding: 0 0 0 130px;
+	background: url(../img/logo.png) no-repeat left;
+}
 
-   header {
-   	height:130px;
-   	padding:0 0 0 130px;
-   	background:url(../img/logo.png) no-repeat left;
-   }
+@media ( max-width : 480px) {
+	header {
+		background: none;
+	}
+	nav a {
+		display: block;
+	}
+}
 
-   header h1 {
-   	font-size: 3.8em;
-   	padding:40px 0 0 0;
-   }
+header h1 {
+	font-size: 3.8em;
+	padding: 40px 0 0 0;
+}
 
-   header h2 {
-   	font-size: 1.4em;
-   	color:#888;
-   }
+header h2 {
+	font-size: 1.4em;
+	color: #888;
+}
 
-   nav {
-   	font-family: 'Nova Square', cursive;
-   	clear:both;
-   	margin: 5px 0;
-   	text-align: center;
-   	font-size: 20px;
-   	padding:0 0 10px 0;
-   	border-bottom:1px #aaa solid;
-   }
+nav {
+	font-family: 'Nova Square', cursive;
+	clear: both;
+	margin: 5px 0;
+	text-align: center;
+	font-size: 20px;
+	padding: 0 0 10px 0;
+	border-bottom: 1px #aaa solid;
+}
 
-   nav a {
-   	margin:0 5px;
-   }
+nav a {
+	margin: 0 10px;
+}
 
-   abbr {
-   	font-weight:bold;
-   }
+abbr {
+	font-weight: bold;
+}
 
-   ul {
-   	margin:0;
-   	list-style: none;
-   }
+ul {
+	margin: 0;
+	list-style: none;
+}
 
-   .container>h1 {
-   	margin:5px 0;
-   }
+.container>h1 {
+	margin: 5px 0;
+}
 
-   .container>h2 {
-   	color:#555;
-   	text-indent:25px;
-   	text-shadow: 0px 2px 3px #ccc;
-   }
+.container>h2 {
+	color: #555;
+	text-indent: 25px;
+	text-shadow: 0px 2px 3px #ccc;
+}
 
-   .container>ul {
-   	font-size:15px;
-   	font-family: 'Open Sans', sans-serif;
-   }
+.container>ul {
+	font-size: 15px;
+	font-family: 'Open Sans', sans-serif;
+}
 
-   .alert {
-   	margin:5px 0;
-   }
+.alert {
+	margin: 5px 0;
+}
 
-   ul li:before {
-   	content: "\00BB \0020";
-   	color: #555;
-   	position: absolute;
-   	margin-left: -20px;
-   }
+ul li:before {
+	content: "\00BB \0020";
+	color: #555;
+	position: absolute;
+	margin-left: -20px;
+}
 
-   footer {
-   	font-family: 'Nova Square', cursive;
-   	margin-top: 30px;
-   	text-align: right;
-   	font-size: 12px;
-   	color: #444;
-   }
+footer {
+	font-family: 'Nova Square', cursive;
+	margin-top: 30px;
+	text-align: right;
+	font-size: 12px;
+	color: #444;
+}
 
-   ::selection {
-   	background:#990000;
-   	color:#fff;
-   }
+::selection {
+	background: #990000;
+	color: #fff;
+}
 
-   ::-moz-selection {
-   	background:#990000;
-   	color:#fff;
-   }
+::-moz-selection {
+	background: #990000;
+	color: #fff;
+}
 
-   ::-webkit-selection {
-   	background:#990000;
-   	color:#fff;
-   }
+::-webkit-selection {
+	background: #990000;
+	color: #fff;
+}
