@@ -6,7 +6,7 @@ About
 
 org.parallelj.resources is a repository used to store various resources related to ParallelJ project's development. It will contain different kind of resources such as documentation, development tools, presentations, and so on.
 
-You can create an Eclipse installation ready-to-work for ParallelJ using this update site on your Eclipse 3.7 installation: http://awltech.github.com/org.parallelj.resources/.github.com/org.parallelj.resources/p2/
+You can create an Eclipse installation ready-to-work for ParallelJ using this update site on your Eclipse 3.7 installation: http://awltech.github.com/org.parallelj.resources/p2/
 
 You can also browse its dedicated webpage here: http://awltech.github.com/org.parallelj.resources/
 
