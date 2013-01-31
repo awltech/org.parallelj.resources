@@ -8,12 +8,12 @@ org.parallelj.resources is a repository used to store various resources related 
 
 You can create an Eclipse installation ready-to-work for ParallelJ using this update site on your Eclipse 3.7 installation: http://xa-labs.github.com/org.parallelj.resources/p2/
 
-You can also browse its dedicated webpage here: http://xa-labs.github.com/org.parallelj.resources/
+You can also browse its dedicated webpage here: http://awltech.github.com/org.parallelj.resources/
 
 Sources
 -------
 
-Fork on github: https://github.com/XA-Labs/org.parallelj.resources
+Fork on github: https://github.com/awltech/org.parallelj.resources
 
 Contact
 -------
